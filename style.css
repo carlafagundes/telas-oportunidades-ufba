@@ -258,3 +258,10 @@ footer {
 .glyphicon {
   padding: 10px;
 }
+
+.cadastro a {
+  color: #0c3665;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 16px;
+  float: left;
+}
