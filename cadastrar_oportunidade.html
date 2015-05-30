@@ -118,17 +118,23 @@
                     <form>
                       <div class="form-group">
                         <label class="form-label" for="field-1">Título</label>
-                        <input type="text" class="form-control" id="titulo-oportunidade">
+                        <input type="text" required class="form-control" id="titulo-oportunidade">
                       </div>
-
+                      
                       <div class="form-group">
                         <label>Remuneração</label>
-                        <input type="text" class="form-control" id="remuneacao-oportunidade" >
+                        <div class="input-group">
+                        <div class="input-group-addon">R$</div>
+                        <input type="number" required class="form-control" id="remuneracao-oportunidade">
+                      </div>
                       </div>
 
                       <div class="form-group">
                         <label>Carga Horária</label>
-                        <input type="tel" class="form-control" id="carga-horaria-oportunidade" >
+                        <div class="input-group">  
+                        <input type="number" required class="form-control" id="carga-horaria-oportunidade" >
+                        <div class="input-group-addon">H</div>
+                      </div>
                       </div>
 
                       <div class="form-group">
