@@ -80,7 +80,7 @@
                     <span class="title">Cadastrar Empresa</span>
                 </a>
               </li>
-              <li class="open"> 
+              <li class=""> 
                 <a href="widgets.html">
                     <span class="glyphicon glyphicon-book"></span>
                     <span class="title">Cadastrar Curso</span>
@@ -92,7 +92,7 @@
                     <span class="title">Cadastrar Oportunidade</span>
                 </a>
               </li>
-              <li class=""> 
+              <li class="open"> 
                 <a href="widgets.html">
                     <span class="glyphicon glyphicon-ok"></span>
                     <span class="title">Cadastro Rápido</span>
@@ -108,7 +108,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0;">
               <div class="titulo">
                 <div class="pull-left">
-                  <h1>Cadastrar Curso</h1>
+                  <h1>Cadastro Rápido</h1>
                 </div>
               </div>
               </div>
@@ -117,24 +117,30 @@
                   <div class="col-md-8 col-sm-9 col-xs-10">
                     <form>
                       <div class="form-group">
-                        <label class="form-label" for="field-1">Título</label>
+                        <label class="form-label" for="field-1">Nome</label>
                         <input type="text" class="form-control" id="titulo-oportunidade">
                       </div>
 
                       <div class="form-group">
-                        <label>Remuneração</label>
-                        <input type="text" class="form-control" id="remuneacao-oportunidade" >
+                        <label class="form-label" for="field-1">Email</label>
+                        <input type="email" class="form-control" id="email-cadastro-rapido">
                       </div>
 
                       <div class="form-group">
-                        <label>Carga Horária</label>
-                        <input type="tel" class="form-control" id="carga-horaria-oportunidade" >
+                        <label>Senha</label>
+                        <input type="password" class="form-control" id="senha-cadastro-rapido">
                       </div>
 
                       <div class="form-group">
-                        <label class="form-label" for="field-1">Descrição</label>
-                        <textarea class="form-control" rows="5"></textarea>
+                        <label>Usuário</label>
+                        <select class="form-control">
+                          <option>Aluno</option>
+                          <option>Professor</option>
+                          <option>Empresa</option>
+                        </select>
                       </div>
+
+                      
 
                      <button type="submit" class="btn">Cadastrar</button>
                     </form>
