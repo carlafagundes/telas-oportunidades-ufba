@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Cadastrar Aluno | Oportunidades UFBA</title>
+    <title>Alunos Interessados | Oportunidades UFBA</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
                 <span class="title">Painel</span>
               </a>
             </li>
-              <li class=""> 
+              <li class="open"> 
                 <a href="cadastrar_aluno.html">
                     <span class="glyphicon glyphicon-education"></span>
                     <span class="title">Cadastrar Aluno</span>
@@ -92,7 +92,7 @@
                     <span class="title">Cadastrar Oportunidade</span>
                 </a>
               </li>
-              <li class="open"> 
+              <li class=""> 
                 <a href="cadastro-rapido.html">
                     <span class="glyphicon glyphicon-ok"></span>
                     <span class="title">Cadastro Rápido</span>
@@ -120,7 +120,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0;">
               <div class="titulo">
                 <div class="pull-left">
-                  <h1>Cadastro Rápido</h1>
+                  <h1>Oportunidades</h1>
                 </div>
               </div>
               </div>
@@ -128,36 +128,46 @@
                 <div class="pagina">
                   <div class="col-md-8 col-sm-9 col-xs-10">
                     <form>
-                      <div class="form-group">
-                        <label class="form-label">Nome</label>
-                        <input type="text" required class="form-control" id="titulo-oportunidade">
-                      </div>
-
-                      <div class="form-group">
-                        <label class="form-label">Email</label>
-                        <input type="email" required class="form-control" id="email-cadastro-rapido">
-                      </div>
-
-                      <div class="form-group">
-                        <label>Senha</label>
-                        <input type="password" required class="form-control" id="senha-cadastro-rapido">
-                      </div>
-
-                      <div class="form-group">
-                        <label>Usuário</label>
-                        <select required class="form-control">
-                          <option>Aluno</option>
-                          <option>Professor</option>
-                          <option>Empresa</option>
-                        </select>
-                      </div>
-
-                     <button type="submit" class="btn">Cadastrar</button>
+                      <table class="table table-striped">
+						  <thead>
+							<tr>
+							  <th>Nome</th>
+							  <th>Descrição</th>
+							  <th>Remuneração</th>
+							  <th>Carga Horária</th>
+							  <th>Candidatar-se</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <td>Carla</td>
+							  <td>Vaga para suporte</td>
+							  <td>R$ 700,00</td>
+							  <td>4h</td>
+							  <td><input type="checkbox"></td>
+							</tr>
+							<tr>
+							  <td>Carla</td>
+							  <td>Vaga para suporte</td>
+							  <td>R$ 700,00</td>
+							  <td>4h</td>
+							  <td><input type="checkbox"></td>
+							</tr>
+							<tr>
+							  <td>Carla</td>
+							  <td>Vaga para suporte</td>
+							  <td>R$ 700,00</td>
+							  <td>4h</td>
+							  <td><input type="checkbox"></td>
+							</tr>
+						  </tbody>
+						</table>
                     </form>
                   </div>
                 </div>
               </div>
-                     
+              
+            
           </section>
         </section>
         
